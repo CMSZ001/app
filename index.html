@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta charset="UTF-8">
-  <title>My APP | Docsify</title>
-  <link rel="stylesheet" href="https://unpkg.com/docsify@4.13.1/themes/vue.css">
-</head>
-<body>
-  <div id="app">加载中……</div>
-  <script>
-    window.$docsify = {
-      maxLevel: 2,
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta charset="UTF-8">
+		<title>My APP | Docsify</title>
+		<link rel="stylesheet" href="https://unpkg.com/docsify@4.13.1/themes/vue.css">
+		<script defer src="https://umami.acmsz.top/umami" data-website-id="80fa5fc9-d818-426f-a844-cb2bc8dc4b92"></script>
+	</head>
+	<body>
+		<div id="app">加载中……</div>
+		<script>
+			window.$docsify = {
+				maxLevel: 2,
 				homepage: 'main.md',
 				repo: 'CMSZ001/app',
 				name: 'My APP | Docsify',
-    }
-  </script>
-  <script src="https://unpkg.com/docsify@4.13.1/lib/docsify.js"></script>
-  <script src="https://unpkg.com/docsify@4.13.1/lib/plugins/emoji.js"></script>
-	<script>
-		if (typeof navigator.serviceWorker !== 'undefined') {
+			}
+		</script>
+		<script src="https://unpkg.com/docsify@4.13.1/lib/docsify.js"></script>
+		<script src="https://unpkg.com/docsify@4.13.1/lib/plugins/emoji.js"></script>
+		<script>
+			if (typeof navigator.serviceWorker !== 'undefined') {
 				navigator.serviceWorker.register('sw.js')
-				}
-  </script>
-</body>
+			}
+		</script>
+	</body>
 </html>
